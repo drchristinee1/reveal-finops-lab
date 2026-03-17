@@ -1,6 +1,6 @@
 # Reveal FinOps Lab
 
-A prototype FinOps automation framework designed to translate cloud cost signals into operational insights.
+A prototype FinOps automation framework for translating cloud cost signals into operational workflows and engineering actions.
 
 ## Key Features
 
