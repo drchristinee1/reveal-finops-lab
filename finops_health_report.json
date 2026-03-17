@@ -1,0 +1,70 @@
+{
+  "scan_time": "2026-03-16T17:03:20.899175",
+  "region": "us-east-1",
+  "demo_mode": true,
+  "profile_used": null,
+  "health_score": {
+    "overall_score": 90,
+    "grade": "A",
+    "issues_found": [
+      "1 cost anomalies detected"
+    ],
+    "status": "HEALTHY"
+  },
+  "cost_anomaly_analysis": {
+    "scan_time": "2026-03-16T17:03:20.708237",
+    "lookback_days": 30,
+    "threshold_percent": 25.0,
+    "demo_mode": true,
+    "cost_summary": {
+      "period": "2024-02-15 to 2024-03-15",
+      "average_daily_cost": 125.5,
+      "maximum_daily_cost": 245.8,
+      "minimum_daily_cost": 45.2,
+      "total_period_cost": 3765.0
+    },
+    "anomalies": [
+      {
+        "date": "2024-03-10",
+        "cost": 245.8,
+        "historical_avg": 118.25,
+        "percent_change": 107.89,
+        "anomaly_type": "INCREASE",
+        "top_services": [
+          {
+            "service": "Amazon EC2",
+            "cost": 180.5
+          },
+          {
+            "service": "Amazon RDS",
+            "cost": 45.3
+          },
+          {
+            "service": "Amazon S3",
+            "cost": 12.8
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_anomalies": 1,
+      "increase_anomalies": 1,
+      "decrease_anomalies": 0
+    }
+  },
+  "idle_resource_analysis": {},
+  "recommendations": [
+    "Investigate 1 cost anomalies to identify unexpected spending patterns",
+    "Set up cost alerts to monitor future anomalies",
+    "Review service usage for anomalous days",
+    "Schedule regular FinOps health scans (recommended: weekly)",
+    "Consider implementing automated cleanup policies for idle resources"
+  ],
+  "summary": {
+    "total_issues": 1,
+    "potential_monthly_savings": 0.0,
+    "cost_anomalies": 1,
+    "idle_volumes": 0,
+    "idle_elastic_ips": 0
+  }
+}
