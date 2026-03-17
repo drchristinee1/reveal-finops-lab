@@ -14,7 +14,7 @@ A prototype FinOps automation framework for translating cloud cost signals into 
 
 Move FinOps from reporting → operational cost intelligence.
 
-# AWS FinOps Tools
+# Implementation Details
 
 A comprehensive suite of Python scripts for AWS cost optimization and resource management, including cost anomaly detection, idle resource analysis, rightsizing recommendations, and unified health scanning.
 
