@@ -1,3 +1,19 @@
+# Reveal FinOps Lab
+
+A prototype FinOps automation framework designed to translate cloud cost signals into operational insights.
+
+## Key Features
+
+- Cost anomaly detection  
+- Idle resource analysis  
+- Service-level cost drivers (EC2, RDS, DynamoDB, S3)  
+- CLI-based health scan execution  
+- Structured output for decision-making  
+
+## Goal
+
+Move FinOps from reporting → operational cost intelligence.
+
 # AWS FinOps Tools
 
 A comprehensive suite of Python scripts for AWS cost optimization and resource management, including cost anomaly detection, idle resource analysis, rightsizing recommendations, and unified health scanning.
