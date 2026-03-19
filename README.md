@@ -2724,6 +2724,23 @@ if [ $? -eq 1 ]; then
     echo "Rightsizing opportunities found - review recommendations"
 fi
 ```
+---
+
+## 🔗 Companion Project: Economics Layer
+
+This project connects to:
+
+👉 https://github.com/drchristinee1/driver-based-finops-modeling-engine
+
+While this repo focuses on **detecting cost signals**, the modeling engine:
+
+* Translates those signals into cost drivers
+* Simulates scenarios
+* Produces unit economics and forecasts
+
+Together, they form a FinOps Operating System:
+
+Detection → Action → Economics → Strategy
 
 ## Contributing
 
