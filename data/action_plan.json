@@ -1,0 +1,31 @@
+{
+  "action_items": [
+    {
+      "driver": "EC2",
+      "issue": "Idle instance",
+      "resource": "i-12345",
+      "service": "payments",
+      "owner": "payments-team",
+      "priority": "medium",
+      "estimated_monthly_savings": 320
+    },
+    {
+      "driver": "S3",
+      "issue": "Unused storage",
+      "resource": "analytics-bucket",
+      "service": "analytics",
+      "owner": "analytics-team",
+      "priority": "low",
+      "estimated_monthly_savings": 150
+    },
+    {
+      "driver": "RDS",
+      "issue": "Underutilized DB",
+      "resource": "db-prod",
+      "service": "checkout",
+      "owner": "checkout-team",
+      "priority": "high",
+      "estimated_monthly_savings": 500
+    }
+  ]
+}
